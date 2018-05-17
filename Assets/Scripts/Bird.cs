@@ -37,6 +37,9 @@ public class Bird : MonoBehaviour {
     public void Death()
     {
         bird.velocity = Vector3.zero;
-        transform.position = new Vector2(-5, 0);
+#pragma warning disable CS0618 // Type or member is obsolete
+        Application.LoadLevel(2);
+#pragma warning restore CS0618 // Type or member is obsolete
+        //transform.position = new Vector2(-5, 0);
     }
 }

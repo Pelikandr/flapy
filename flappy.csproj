@@ -240,6 +240,7 @@
     <Compile Include="Assets\Scripts\ClickSound.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\Local.cs" />
     <Compile Include="Assets\Scripts\Pipe.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\test_settings.cs" />
