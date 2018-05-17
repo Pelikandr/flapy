@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 49
+  controlID: 110
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,19 +388,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Audio
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Audio
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\123456789987654321123456789987654321\flappy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84290000
-    m_LastClickedID: 10628
-    m_ExpandedIDs: 000000008e27000000ca9a3bffffff7f
+    m_SelectedIDs: ae270000
+    m_LastClickedID: 10158
+    m_ExpandedIDs: 000000009027000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e270000
+    m_ExpandedIDs: 0000000090270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300008229000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -546,20 +546,20 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c82f0000
-    m_LastClickedID: 12232
-    m_ExpandedIDs: 2201ffff0a07ffffd015ffff4826ffff9efbffff000000002a2800006c2800007228000082280000ba2800007a2f0000c82f0000ce2f0000de2f000016300000
+    m_SelectedIDs: f2270000
+    m_LastClickedID: 0
+    m_ExpandedIDs: fc6cf8ff0874f8ffcad3f8ff6e24faffe428faff5c36faff7e40faff3693faff28c4faffcc89fbff8ca6fbffe0acfbff86bdfbff5adcffff9efbffff00000000c428000018290000282900006829000078290000fe3900001e3b0000603b0000663b0000923b0000583e00008c41000042440000484700004a4a0000584a0000804a0000f44a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas
-      m_OriginalName: Canvas
+      m_Name: Main Camera
+      m_OriginalName: Main Camera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11164
+      m_UserData: 18290
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -599,14 +599,14 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2845.673023731743
+  lastFramingTime: 6616.915041735559
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.4539876, y: 7.055215, z: 90}
+    m_Target: {x: -0.8707766, y: 0.7112777, z: 95.454605}
     speed: 2
-    m_Value: {x: -2.4539876, y: 7.055215, z: 90}
+    m_Value: {x: -0.8707766, y: 0.7112777, z: 95.454605}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -634,15 +634,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.7894573
+    m_Target: 15.117239
     speed: 2
-    m_Value: 1.7894573
+    m_Value: 15.117239
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.07116709, y: 0.67905545, z: -0.06641851, w: 0.727604}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
