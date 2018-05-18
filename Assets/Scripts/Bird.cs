@@ -38,7 +38,7 @@ public class Bird : MonoBehaviour {
     {
         bird.velocity = Vector3.zero;
 #pragma warning disable CS0618 // Type or member is obsolete
-        Application.LoadLevel(2);
+        Application.LoadLevel(3);
 #pragma warning restore CS0618 // Type or member is obsolete
         //transform.position = new Vector2(-5, 0);
     }

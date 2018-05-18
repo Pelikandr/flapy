@@ -7,11 +7,9 @@ public class btn : MonoBehaviour {
 
     public void NewGame()
     {
-        //GetComponent<AudioSource>().Play();
 #pragma warning disable CS0618 // Type or member is obsolete
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
 #pragma warning restore CS0618 // Type or member is obsolete
-     // GameObject.DontDestroyOnLoad(gameObject);
     }
 
     public void Settings()
