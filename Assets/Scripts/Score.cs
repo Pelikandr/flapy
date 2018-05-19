@@ -42,6 +42,6 @@ public class Score : MonoBehaviour
             p++;
         }
 
-
+        Global.pts = p;   
     }
 }
