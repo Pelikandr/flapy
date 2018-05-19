@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/denis/Desktop/Werwen.exe
+C:/Users/denis/Desktop/Shidevar/Werwen1.1.exe
 SceneListBegin?
 Assets/Scenes/New Scene.unity
 Assets/Scenes/menu.unity
@@ -123,6 +123,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 83bf5573a2360efa71b5b2e94a2c3592 Assembly-CSharp.dll:.Local
 bc77ab595fc9abb6e6848720b8369f08 Assembly-CSharp.dll:.btn
+2028d3dce5fbf66cd2cedd2d77691e0e Assembly-CSharp.dll:.kek
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
