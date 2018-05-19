@@ -246,6 +246,8 @@
     <Compile Include="Assets\Scripts\ClickSound.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\input.cs" />
+    <Compile Include="Assets\Scripts\kek.cs" />
     <Compile Include="Assets\Scripts\Local.cs" />
     <Compile Include="Assets\Scripts\Pipe.cs" />
     <Compile Include="Assets\Scripts\save.cs" />

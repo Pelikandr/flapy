@@ -43,15 +43,21 @@ public class btn : MonoBehaviour {
 
     public void Save()
     {
+        //Global.playerName = input.text;
         StreamWriter sw; //= new StreamWriter("PlayerName.txt");
         FileInfo fi = new FileInfo("PlayerName.txt");
         sw = fi.AppendText();
         sw.WriteLine(Global.playerName + "\n\t\t\t\t Score" + Global.pts + "Score");
         sw.Close();
+        
+    }
+    public void Save2()
+    {
+
     }
 
-    public void Input()
-    {
-        Global.playerName = input.text;
-    }
+    //public void Input()
+    //{
+    //    //Global.playerName = input.text;
+    //}
 }

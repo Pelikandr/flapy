@@ -106,6 +106,6 @@ public class sb : MonoBehaviour
     }
     void OnGUI()
     {
-        Global.playerName = GUI.TextField(new Rect(500, 450, 100, 30), Global.playerName); 
+        //Global.playerName = GUI.TextField(new Rect(500, 450, 100, 30), Global.playerName); 
     }
 }

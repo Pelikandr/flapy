@@ -21,7 +21,7 @@ public class Local : MonoBehaviour {
 
     public void LocalThisText()
     {
-        if(Application.systemLanguage == SystemLanguage.English)
+        if(Application.systemLanguage == SystemLanguage.Japanese)
         {
             Text.text = EnglishValue;
         }
