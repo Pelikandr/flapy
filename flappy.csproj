@@ -242,6 +242,8 @@
     <Compile Include="Assets\Scripts\Global.cs" />
     <Compile Include="Assets\Scripts\Local.cs" />
     <Compile Include="Assets\Scripts\Pipe.cs" />
+    <Compile Include="Assets\Scripts\save.cs" />
+    <Compile Include="Assets\Scripts\sb.cs" />
     <Compile Include="Assets\Scripts\Scene_loading.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\test_settings.cs" />
