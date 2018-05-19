@@ -13,7 +13,6 @@ public class Bird : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //bird.velocity = new Vector2(bird.position.x,bird.velocity.y);
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -40,6 +39,5 @@ public class Bird : MonoBehaviour {
 #pragma warning disable CS0618 // Type or member is obsolete
         Application.LoadLevel(3);
 #pragma warning restore CS0618 // Type or member is obsolete
-        //transform.position = new Vector2(-5, 0);
     }
 }

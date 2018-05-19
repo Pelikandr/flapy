@@ -22,10 +22,6 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if( pipe.position.x<-6)
-        //{
-        //    points++;
-        //}
         scr.text = " " + p;
 
         if (transform.position.x < 6)

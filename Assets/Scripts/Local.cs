@@ -24,7 +24,6 @@ public class Local : MonoBehaviour {
         if(Application.systemLanguage == SystemLanguage.English)
         {
             Text.text = EnglishValue;
-            
         }
         else
         {

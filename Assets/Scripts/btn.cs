@@ -1,10 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using System.IO;
+using System;
 public class btn : MonoBehaviour {
     public GameObject settings;
-
+    public InputField input;
+    private void Start()
+    {
+        input = gameObject.GetComponent(typeof(InputField)) as InputField;
+        //var textobject : UI.InputField;
+    }
     public void NewGame()
     {
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -32,5 +39,19 @@ public class btn : MonoBehaviour {
     public void setSound(float value)
     {
         Global.sound = value;
+    }
+
+    public void Save()
+    {
+        StreamWriter sw; //= new StreamWriter("PlayerName.txt");
+        FileInfo fi = new FileInfo("PlayerName.txt");
+        sw = fi.AppendText();
+        sw.WriteLine(Global.playerName + "\n\t\t\t\t Score" + Global.pts + "Score");
+        sw.Close();
+    }
+
+    public void Input()
+    {
+        Global.playerName = input.text;
     }
 }

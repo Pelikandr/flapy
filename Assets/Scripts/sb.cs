@@ -8,7 +8,7 @@ public class sb : MonoBehaviour
 {
     public Text scoreboard;
     public string filename = "";
-    public string playerName;
+    
     // Use this for initialization
     void Start()
     {
@@ -29,10 +29,6 @@ public class sb : MonoBehaviour
         while (!streamReader.EndOfStream)
         {
             txt += streamReader.ReadLine();
-            
-            //s1 += stemp.Substring(0, stemp.IndexOf("Score"));
-            //s2 += stemp.Substring(stemp.IndexOf(":"),stemp.Length);
-            //str += streamReader.ReadLine()+" "+"\n";
         }
         streamReader.Close();
 
@@ -86,10 +82,6 @@ public class sb : MonoBehaviour
             {
                 if (points[i] < points[j])
                 {
-                    //if(points[i] == points[j])
-                    //{
-                    //    int kek = 0;
-                    //}
                     temp = points[i];
                     string stemp = name[i];
                     points[i] = points[j];
@@ -114,17 +106,6 @@ public class sb : MonoBehaviour
     }
     void OnGUI()
     {
-        GUI.Label(new Rect(430, 450, 90, 100), "Your name:");
-        playerName = GUI.TextField(new Rect(500, 450, 100, 20), playerName);
-        if (GUI.Button(new Rect(500, 480, 50, 20), "Save"))
-        {
-            StreamWriter sw; //= new StreamWriter("PlayerName.txt");
-            FileInfo fi = new FileInfo("PlayerName.txt");
-            sw = fi.AppendText();
-            sw.WriteLine(playerName + "\n\t\t\t\t Score" + Global.pts + "Score");
-
-            sw.Close();
-        }
-        
+        Global.playerName = GUI.TextField(new Rect(500, 450, 100, 30), Global.playerName); 
     }
 }
