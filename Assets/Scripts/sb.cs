@@ -47,7 +47,7 @@ public class sb : MonoBehaviour
                 pointsTemp[i] = 999;
             }
         }
-        for (int j = 0; j < 20; j++)
+        for (int j = 0; j < 100; j++)
         {
             for (int i = 0; i < name.Length; i++)
             {
